@@ -20,6 +20,7 @@ class superheroes {
     }
 
     public function gender() {
-        echo '<h2> I am a '.$this->gender.'</h2>';
+        echo '<h3>'.$this->name.':</h3>';
+        echo '<p>'.$this->oneliner.'</p>';
     }
 }
